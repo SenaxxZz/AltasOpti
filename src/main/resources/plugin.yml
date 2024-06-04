@@ -1,0 +1,18 @@
+name: AsthediaOpti
+main: fr.senaxzz.asthediaopti.Main
+author: SenaxZz
+version: 0.0.1
+description: Plugin pour réduire les lags ou bug !
+commands:
+  stats:
+    description: Permet de savoir le stats (tps) du serveur
+    usage: /stats
+    permission: permission.stats
+  unloadchunks:
+    description: Permet de unload les chunks inutiles
+    usage: /unloadchunks
+    permission: permission.unloadchunks
+  clearentities:
+    description: Permet de clear les mobs et bloc inutiles
+    usage: /clearentities
+    permission: permission.clearentities
