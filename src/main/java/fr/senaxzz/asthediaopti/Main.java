@@ -12,7 +12,7 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         instance = this;
-        getCommand("stats").setExecutor(new StatsCommandes(this)); // Pass 'this' as the Plugin object
+        getCommand("stats").setExecutor(new StatsCommandes(this)); 
         getCommand("UnloadChunks").setExecutor(new UnloadChunksCommandes());
         getCommand("ClearEntities").setExecutor(new ClearEntitiesCommandes());
     }
